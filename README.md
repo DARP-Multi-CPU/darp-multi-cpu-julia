@@ -13,24 +13,9 @@ Now add the julia to path (in bashrc or zshrc file)
 PATH='$PATH:<julia-extract-dir>/bin'
 ```
 
-2. Run `julia julia_setup.jl`
-3. chmod +x run_tests_adv.sh
-4. Command to run tests
+## Install
 
 ```
-./run_tests_adv.sh <output-filename> <thread configurations to run>
+chmod +x setup.sh
+./setup.sh
 ```
-
-Example
-```
-./run_tests_adv.sh benchmark1 20 16 14 12 10 8 4 2 1
-```
-
-## Breakdown of log line
-
-![log-line-breakdown](images/log-line-breakdown.png)
-
-
-## TODO
-1. Diversification
-2. Intensification
